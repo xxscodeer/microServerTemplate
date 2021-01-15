@@ -1,0 +1,25 @@
+app:
+  name: "micro.Xxxx.server"
+  version: "v1.0"
+  mode: "debug"
+  port: "8772"
+  host: "127.0.0.1"
+etcd:
+  port: "2379"
+  host: "127.0.0.1"
+jaeger:
+  port: "6831"
+  host: "127.0.0.1"
+  name: "micro.Xxxx.server"
+mysql:
+  dbName: "micro.Xxxx"
+  host: "127.0.0.1"
+  port: "3306"
+  dbUser: "root"
+  dbPwd: "aa123456"
+  loc: "Local"
+  parseTime: "True"
+  charset: "utf8"
+redis:
+  host: "127.0.0.1"
+  port: "6379"

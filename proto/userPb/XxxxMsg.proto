@@ -1,0 +1,7 @@
+syntax="proto3";
+package XxxxPb;
+option go_package="XxxxPb";
+
+service XxxxService {
+
+}
